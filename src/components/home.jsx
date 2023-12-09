@@ -6,25 +6,25 @@ export default function index() {
   return (
     <>
       <Header />
-      <div style={{height:"100vh", marginLeft:"39px"}}>
+      <div style={{ height: "100vh", marginLeft: "39px" }}>
         <div className='d-flex'>
-          <div className='border rounded m-2' style={{ position: "absolute", width: "39%", height: "400px", padding: "20px", background: "#c8c8c80f" }}>
-            <form action="post w-100" style={{ width: "100%", height: "100px" }}>
+          <div className='input-form border rounded m-2 my-3'>
+            <form action="post w-100">
               <div className="form-floating mb-3">
                 <input type="text" className="form-control" id="floatingInput" placeholder="Title" />
-                <label htmlFor="floatingInput" style={{ fontSize: "13px" }}>Title</label>
+                <label htmlFor="floatingInput">Title</label>
               </div>
               <div className="form-floating">
-                <textarea className="form-control" placeholder="Leave a comment here" id="floatingTextarea" style={{ height: "198px" , resize:"none"}}></textarea>
-                <label htmlFor="floatingTextarea" style={{ fontSize: "13px" }}>Enter you Note</label>
+                <textarea className="form-control" placeholder="Leave a comment here" id="floatingTextarea" style={{ height: "198px", resize: "none" }}></textarea>
+                <label htmlFor="floatingTextarea">Enter you Note</label>
               </div>
             </form>
           </div>
-          <div className='border rounded my-2 me-5' style={{ position: "sticky", marginLeft: "490px", height: "100%" }}>
-            <div className='note border rounded p-5 h-100'>
+          <div className='me-5' style={{ position: "sticky", marginLeft: "490px", height: "100%" }}>
+            <div className='note border rounded p-5 h-100 my-3'>
               <span className='d-flex'>
                 <h3>Story</h3>
-                <blockquote className="blockquote mt-2 ms-auto text-muted" style={{fontSize:"12px", fontWeight:"800"}}>12.07.2022</blockquote>
+                <blockquote className="blockquote mt-2 ms-auto text-muted" style={{ fontSize: "12px", fontWeight: "800" }}>12.07.2022</blockquote>
               </span>
               <p>
                 Once upon a time, in a quaint village nestled between rolling hills and lush forests, there lived a young girl named Elara.
@@ -58,6 +58,112 @@ export default function index() {
                 Filled with wonder and gratitude, Elara left the tower, carrying the book of tales. She returned to her village, sharing the stories and inspiring others to embrace curiosity,
                 reminding them that within every heart lies the key to extraordinary adventures.
               </p>
+            </div>
+            <div className='note border rounded p-5 h-100 my-3'>
+              <span className='d-flex'>
+                <h3>Gameing Tips : </h3>
+                <blockquote className="blockquote mt-2 ms-auto text-muted" style={{ fontSize: "12px", fontWeight: "800" }}>11.02.2022</blockquote>
+              </span>
+
+              <b>
+                20 Gaming Tips to Level Up Your Play <br />
+              </b>
+              Improving your gaming skills takes time and dedication, but these tips can help you get there faster: <br /> <br />
+              <ol>
+                <li>
+                  Practice Regularly:
+                  Treat gaming like any other skill. The more you play, the better you'll become.
+                </li>
+                <li>
+                  Focus on the Fundamentals:
+                  
+                  Before getting fancy, master the basics of your chosen game.
+                </li>
+                <li>
+                  Watch Pro Players:
+                  
+                  Observe how skilled players approach the game and learn from their strategies.
+                </li>
+                <li>
+                  Analyze Your Mistakes:
+                  Don't get discouraged by defeats; instead, learn from them and identify areas for improvement.
+                </li>
+                <li>
+                  Experiment with Different Playstyles:
+                  
+                  Find a playstyle that suits you and master it.
+                </li>
+                <li>
+                  Take Breaks:
+                  
+                  Don't burn yourself out. Take breaks to avoid fatigue and frustration.
+                </li>
+                <li>
+                  Stay Hydrated and Well-Fed:
+                  
+                  Your physical and mental state can significantly impact your performance.
+                </li>
+                <li>
+                  Warm Up Before Playing:
+                  
+                  Just like athletes, gamers need to warm up their muscles and reflexes.
+                </li>
+                <li>
+                  Adjust Your Settings:
+                  
+                  Customize your settings for optimal comfort and performance.
+                </li>
+                <li>
+                  Use the Right Equipment:
+                  
+                  Invest in good quality gaming gear to give yourself an edge.
+                </li>
+                <li>
+                  Join a Community:
+                  
+                  Connect with other players and learn from each other.
+                </li>
+                <li>
+                  Be a Good Team Player:
+                  
+                  Communication and cooperation are key to success in multiplayer games.
+                </li>
+                <li>
+                  Be Respectful:
+                  
+                  Treat your opponents and teammates with respect.
+                </li>
+                <li>
+                  Have Fun:
+                  
+                  Gaming is supposed to be enjoyable, so don't take it too seriously.
+                </li>
+                <li>
+                  Learn from Others:
+                  
+                  Read guides, watch tutorials, and listen to podcasts to expand your knowledge.
+                </li>
+                <li>
+                  Set Goals:
+                  
+                  Having goals will help you stay motivated and track your progress.
+                </li>
+                <li>
+                  Don't Be Afraid to Fail:
+                  
+                  Failure is a natural part of learning. Embrace it and use it to improve.
+                </li>
+                <li>
+                  Be Patient:
+                  
+                  It takes time to become a skilled gamer. Don't get discouraged if you don't see results immediately.
+                </li>
+                <li>
+                  Have a Growth Mindset:
+                  
+                  Believe in your ability to improve and keep learning.
+                </li>
+              </ol>
             </div>
           </div>
 
