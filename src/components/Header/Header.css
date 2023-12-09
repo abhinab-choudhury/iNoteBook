@@ -1,0 +1,14 @@
+.avatar {
+  left: 0;
+  width: 27px;
+  -webkit-clip-path: circle(50% at 50% 50%);
+  clip-path: circle(50% at 50% 50%);
+}
+.link:hover{
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+/* .home_body {
+  display: inline;
+} */
