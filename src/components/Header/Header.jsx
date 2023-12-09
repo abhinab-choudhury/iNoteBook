@@ -4,7 +4,7 @@ import './Header.css'
 export default function header() {
   return (
     <>
-      <div className='d-flex text my-3 mx-2' style={{ justifyContent: "space-between" }}>
+      <div className='d-flex text my-3 mx-2' style={{ justifyContent: "space-between"}}>
         <img className='mx-3' width="55" height="55" src="https://img.icons8.com/cotton/64/cloud-document.png" alt="cloud-document" />
         <span className='display-5'>
           iNoteBook
