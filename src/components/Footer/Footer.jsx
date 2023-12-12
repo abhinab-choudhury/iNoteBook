@@ -23,7 +23,7 @@ export default function Footer() {
               Twitter
             </a> <br />
             <a className='text-muted' href="https://github.com/abhinab-choudhury">
-            <img height={"22px"} src="https://img.icons8.com/ios-filled/50/github.png" alt="github"/>
+              <img height={"22px"} src="https://img.icons8.com/ios-filled/50/github.png" alt="github"/>
               Github
             </a> <br />
           </div>

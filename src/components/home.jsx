@@ -2,6 +2,7 @@ import React from 'react'
 import Header from './Header/Header'
 import './home.css'
 import Footer from './Footer/Footer'
+import Form from './Form/Form'
 
 export default function index() {
   return (
@@ -9,19 +10,7 @@ export default function index() {
       <Header />
       <div style={{ height: "100vh", marginLeft: "39px" }}>
         <div className='d-flex'>
-          <div className='input-form border rounded m-2 my-3'>
-            <form action="post w-100">
-              <div className="form-floating mb-3">
-                <input type="text" className="form-control" id="floatingInput" placeholder="Title" />
-                <label htmlFor="floatingInput">Title</label>
-              </div>
-              <div className="form-floating">
-                <textarea className="form-control" placeholder="Leave a comment here" id="floatingTextarea" style={{ height: "198px", resize: "none" }}></textarea>
-                <label htmlFor="floatingTextarea">Enter you Note</label>
-              </div>
-              <button type="submit" className="d-flex ms-auto btn btn-dark my-5">Submit</button>
-            </form>
-          </div>
+          <Form />
           <div className='me-5' style={{ position: "sticky", marginLeft: "490px", height: "100%" }}>
             <div className='note border rounded p-5 h-100 my-3'>
               <div className='d-flex justify-content-end'>
@@ -43,7 +32,7 @@ export default function index() {
                 fingers and noticed a peculiar symbol etched on its handle.
               </p>
               <p>
-                With an adventurer's spirit, Elara decided to uncover the key's mystery. Guided by the symbol's faint glow, she embarked on a journey through the dense forest,
+                With an adventurer&apos;s spirit, Elara decided to uncover the key&apos;s mystery. Guided by the symbol&apos;s faint glow, she embarked on a journey through the dense forest,
                 following clues that seemed to appear magically before her.
               </p>
               <p>
@@ -87,7 +76,7 @@ export default function index() {
               <ol>
                 <li>
                   Practice Regularly:
-                  Treat gaming like any other skill. The more you play, the better you'll become.
+                  Treat gaming like any other skill. The more you play, the better you&apos;ll become.
                 </li>
                 <li>
                   Focus on the Fundamentals:
@@ -101,7 +90,7 @@ export default function index() {
                 </li>
                 <li>
                   Analyze Your Mistakes:
-                  Don't get discouraged by defeats; instead, learn from them and identify areas for improvement.
+                  Don&apos;t get discouraged by defeats; instead, learn from them and identify areas for improvement.
                 </li>
                 <li>
                   Experiment with Different Playstyles:
@@ -111,7 +100,7 @@ export default function index() {
                 <li>
                   Take Breaks:
 
-                  Don't burn yourself out. Take breaks to avoid fatigue and frustration.
+                  Don&apos;t burn yourself out. Take breaks to avoid fatigue and frustration.
                 </li>
                 <li>
                   Stay Hydrated and Well-Fed:
@@ -151,7 +140,7 @@ export default function index() {
                 <li>
                   Have Fun:
 
-                  Gaming is supposed to be enjoyable, so don't take it too seriously.
+                  Gaming is supposed to be enjoyable, so don&apos;t take it too seriously.
                 </li>
                 <li>
                   Learn from Others:
@@ -164,14 +153,14 @@ export default function index() {
                   Having goals will help you stay motivated and track your progress.
                 </li>
                 <li>
-                  Don't Be Afraid to Fail:
+                  Dont Be Afraid to Fail:
 
                   Failure is a natural part of learning. Embrace it and use it to improve.
                 </li>
                 <li>
                   Be Patient:
 
-                  It takes time to become a skilled gamer. Don't get discouraged if you don't see results immediately.
+                  It takes time to become a skilled gamer. Don&apos;t get discouraged if you don&apos;t see results immediately.
                 </li>
                 <li>
                   Have a Growth Mindset:
