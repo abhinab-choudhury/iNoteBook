@@ -1,6 +1,7 @@
 import React from 'react'
 import Header from './Header/Header'
 import './home.css'
+import Footer from './Footer/Footer'
 
 export default function index() {
   return (
@@ -18,14 +19,21 @@ export default function index() {
                 <textarea className="form-control" placeholder="Leave a comment here" id="floatingTextarea" style={{ height: "198px", resize: "none" }}></textarea>
                 <label htmlFor="floatingTextarea">Enter you Note</label>
               </div>
+              <button type="submit" className="d-flex ms-auto btn btn-dark my-5">Submit</button>
             </form>
           </div>
           <div className='me-5' style={{ position: "sticky", marginLeft: "490px", height: "100%" }}>
             <div className='note border rounded p-5 h-100 my-3'>
-              <span className='d-flex'>
-                <h3>Story</h3>
-                <blockquote className="blockquote mt-2 ms-auto text-muted" style={{ fontSize: "12px", fontWeight: "800" }}>12.07.2022</blockquote>
+              <div className='d-flex justify-content-end'>
+                <button className="delete-btn">
+                  <img width="20" height="20" src="https://img.icons8.com/pulsar-line/48/filled-trash.png" alt="filled-trash" />
+                </button>
+              </div>
+              <span className='d-flex note-title p-1 my-2 border rounded '>
+                <h3 className='m-2'>Story</h3>
+                <blockquote className="blockquote mt-3 ms-auto mx-2 text-muted" style={{ fontSize: "12px", fontWeight: "800" }}>Dt: 12.07.2022</blockquote>
               </span>
+              <hr />
               <p>
                 Once upon a time, in a quaint village nestled between rolling hills and lush forests, there lived a young girl named Elara.
                 She had an insatiable curiosity that often led her into marvelous adventures.
@@ -60,11 +68,18 @@ export default function index() {
               </p>
             </div>
             <div className='note border rounded p-5 h-100 my-3'>
-              <span className='d-flex'>
-                <h3>Gameing Tips : </h3>
-                <blockquote className="blockquote mt-2 ms-auto text-muted" style={{ fontSize: "12px", fontWeight: "800" }}>11.02.2022</blockquote>
-              </span>
+              
+              <div className='d-flex justify-content-end'>
+                <button className="delete-btn">
+                  <img width="20" height="20" src="https://img.icons8.com/pulsar-line/48/filled-trash.png" alt="filled-trash" />
+                </button>
+              </div>
 
+              <span className='d-flex note-title p-1 my-2 border rounded '>
+                <h3 className='m-2'>Gameing Tips : </h3>
+                <blockquote className="blockquote mt-3 ms-auto mx-2 text-muted" style={{ fontSize: "12px", fontWeight: "800" }}>Dt: 02.02.2021</blockquote>
+              </span>
+              <hr />
               <b>
                 20 Gaming Tips to Level Up Your Play <br />
               </b>
@@ -76,12 +91,12 @@ export default function index() {
                 </li>
                 <li>
                   Focus on the Fundamentals:
-                  
+
                   Before getting fancy, master the basics of your chosen game.
                 </li>
                 <li>
                   Watch Pro Players:
-                  
+
                   Observe how skilled players approach the game and learn from their strategies.
                 </li>
                 <li>
@@ -90,77 +105,77 @@ export default function index() {
                 </li>
                 <li>
                   Experiment with Different Playstyles:
-                  
+
                   Find a playstyle that suits you and master it.
                 </li>
                 <li>
                   Take Breaks:
-                  
+
                   Don't burn yourself out. Take breaks to avoid fatigue and frustration.
                 </li>
                 <li>
                   Stay Hydrated and Well-Fed:
-                  
+
                   Your physical and mental state can significantly impact your performance.
                 </li>
                 <li>
                   Warm Up Before Playing:
-                  
+
                   Just like athletes, gamers need to warm up their muscles and reflexes.
                 </li>
                 <li>
                   Adjust Your Settings:
-                  
+
                   Customize your settings for optimal comfort and performance.
                 </li>
                 <li>
                   Use the Right Equipment:
-                  
+
                   Invest in good quality gaming gear to give yourself an edge.
                 </li>
                 <li>
                   Join a Community:
-                  
+
                   Connect with other players and learn from each other.
                 </li>
                 <li>
                   Be a Good Team Player:
-                  
+
                   Communication and cooperation are key to success in multiplayer games.
                 </li>
                 <li>
                   Be Respectful:
-                  
+
                   Treat your opponents and teammates with respect.
                 </li>
                 <li>
                   Have Fun:
-                  
+
                   Gaming is supposed to be enjoyable, so don't take it too seriously.
                 </li>
                 <li>
                   Learn from Others:
-                  
+
                   Read guides, watch tutorials, and listen to podcasts to expand your knowledge.
                 </li>
                 <li>
                   Set Goals:
-                  
+
                   Having goals will help you stay motivated and track your progress.
                 </li>
                 <li>
                   Don't Be Afraid to Fail:
-                  
+
                   Failure is a natural part of learning. Embrace it and use it to improve.
                 </li>
                 <li>
                   Be Patient:
-                  
+
                   It takes time to become a skilled gamer. Don't get discouraged if you don't see results immediately.
                 </li>
                 <li>
                   Have a Growth Mindset:
-                  
+
                   Believe in your ability to improve and keep learning.
                 </li>
               </ol>
@@ -169,6 +184,7 @@ export default function index() {
 
         </div>
 
+      <Footer />
       </div>
     </>
   )
