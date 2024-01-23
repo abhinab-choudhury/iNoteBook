@@ -1,11 +1,10 @@
-import Home from './components/home'
+import React from 'react'
+import Index from './Index'
 
-function App() {
+export default function App() {
   return (
-    <>
-      <Home />
-    </>
+    <div>
+      <Index />
+    </div>
   )
 }
-
-export default App

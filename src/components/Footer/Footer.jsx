@@ -31,9 +31,9 @@ export default function Footer() {
         <div className='border'></div>
         <div className='h-25 p-3'>
           <h2 className='m-2 display-6 '>Resources</h2>
-          <div style={{fontSize:"0.8rem"}}>
-            <span>- Icons are taken from icon8.com</span> <br />
-            <span>- Styling Library Bootstrap</span> <br />
+          <div>
+            <spam style={{fontSize:"1rem",fontWeight:"700"}}>Icons are taken from icon8.com</spam> <br />
+            <spam style={{fontSize:"1rem",fontWeight:"700"}} >Styling Library Bootstrap</spam> <br />
           </div>
         </div>
       </div>

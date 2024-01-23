@@ -1,21 +1,24 @@
 import React from 'react'
+import './Form.css'
 
 export default function Form() {
   return (
-    <>
-      <div className='input-form border rounded m-2 my-3'>
+    <div className='d-flex justify-content-center inputfield'>
+      <div className='input-form rounded m-2'>
         <form action="post w-100">
           <div className="form-floating mb-3">
-            <input type="text" className="form-control" id="floatingInput" placeholder="Title" />
+            <input type="text" className="form-control" id="floatingInput" placeholder="Title" style={{ height: "80px", resize: "none" }} />
             <label htmlFor="floatingInput">Title</label>
           </div>
           <div className="form-floating">
-            <textarea className="form-control" placeholder="Leave a comment here" id="floatingTextarea" style={{ height: "198px", resize: "none" }}></textarea>
-            <label htmlFor="floatingTextarea">Enter you Note</label>
+            <textarea className="form-control" placeholder="Leave a comment here" id="floatingTextarea" style={{ height: "380px", resize: "none" }}></textarea>
+            <label htmlFor="floatingTextarea">Note</label>
           </div>
-          <button type="submit" className="d-flex ms-auto btn btn-dark my-5">Submit</button>
+          <div>
+            <button type="submit" className="d-flex justify-content-end btn btn-dark ms-auto my-2">Submit</button>
+          </div>
         </form>
       </div>
-    </>
+    </div>
   )
 }

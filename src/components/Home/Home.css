@@ -4,15 +4,7 @@ form,.note{
   font-family: 'Montserrat', sans-serif;
 }
 .note{ 
-  font-size: small;
-}
-
-.input-form{
-  position: absolute;
-  width: 39%;
-  height: 400px;
-  padding: 20px;
-  background: #c8c8c80f;
+  font-size: 18px;
 }
 
 label {
