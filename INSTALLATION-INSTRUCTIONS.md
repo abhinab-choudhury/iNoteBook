@@ -10,7 +10,7 @@ see our [Code of Conduct](CODE-OF-CONDUCT.md) for more information on expected b
 
 ### Clone the Repository
 ```bash
-git clone [https://github.com/abhinab-choudhury/iNoteBook.git]([https://github.com/abhinab-choudhury/iNoteBook .git)
+git clone [https://github.com/abhinab-choudhury/iNoteBook.git]([https://github.com/abhinab-choudhury/iNoteBook.git)
 cd iNoteBook
 npm install
 ```
