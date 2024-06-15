@@ -5,7 +5,7 @@ export default function Form() {
   return (
     <div className='d-flex justify-content-center inputfield'>
       <div className='input-form rounded m-2'>
-        <form action="post w-100">
+        <form action="post">
           <div className="form-floating mb-3">
             <input type="text" className="form-control" id="floatingInput" placeholder="Title" style={{ height: "80px", resize: "none" }} />
             <label htmlFor="floatingInput">Title</label>
@@ -15,7 +15,7 @@ export default function Form() {
             <label htmlFor="floatingTextarea">Note</label>
           </div>
           <div>
-            <button type="submit" className="d-flex justify-content-end btn btn-dark ms-auto my-2">Submit</button>
+            <button type="submit" className="d-flex justify-content-end btn btn-dark ms-auto mt-4">Submit</button>
           </div>
         </form>
       </div>

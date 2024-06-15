@@ -1,9 +1,8 @@
-import React from 'react'
-import Header from '../Header/Header'
 import './Home.css'
+import del_btn from '../../assets/icons/filled-trash.png'
+import Header from '../Header/Header'
 import Footer from '../Footer/Footer'
 import Form from '../Form/Form'
-import Login from '../Login/Login'
 
 export default function index() {
   return (
@@ -12,8 +11,8 @@ export default function index() {
       <Form />
       <div className='note border rounded px-5 py-3 m-3 w-75 ms-auto me-auto'>
         <div className='d-flex justify-content-end'>
-          <button className="delete-btn">
-            <img width="20" height="20" src="https://img.icons8.com/pulsar-line/48/filled-trash.png" alt="filled-trash" />
+          <button className="delete-btn d-flex justify-content-center border border-0">
+            <img width="30" height="30" src={del_btn} alt="filled-trash" />
           </button>
         </div>
         <span className='d-flex note-title p-1 my-2 border rounded '>
@@ -53,12 +52,12 @@ export default function index() {
           Filled with wonder and gratitude, Elara left the tower, carrying the book of tales. She returned to her village, sharing the stories and inspiring others to embrace curiosity,
           reminding them that within every heart lies the key to extraordinary adventures.
         </p>
-      </div>
+      </div >
       <div className='note border rounded p-5 py-3 m-3 w-75 ms-auto me-auto'>
 
         <div className='d-flex justify-content-end'>
-          <button className="delete-btn">
-            <img width="20" height="20" src="https://img.icons8.com/pulsar-line/48/filled-trash.png" alt="filled-trash" />
+          <button className="delete-btn d-flex justify-content-center border border-0">
+            <img width="30" height="30" src={del_btn} alt="filled-trash" />
           </button>
         </div>
 

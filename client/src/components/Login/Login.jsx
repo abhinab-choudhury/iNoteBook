@@ -1,5 +1,6 @@
-import React from 'react'
 import './Login.css'
+import Google from './../../assets/icons/Google__G__logo.svg'
+import { Link } from 'react-router-dom'
 
 export default function Login() {
   return (
@@ -23,17 +24,20 @@ export default function Login() {
           <div className='d-flex justify-content-center my-1' style={{ fontSize: 'small' }}>
             <div className='text-mutted'>Forgot Password?</div>
           </div>
+          <div className='d-flex justify-content-center my-1' style={{ fontSize: 'small' }}>
+            <div className='text-mutted'>Don&apos;t have an Account,<Link to='/signin'>Sign in</Link></div>
+          </div>
           <div className='d-flex'>
-            <hr className='mx-2' style={{ width: "45%" }} /> or <hr className='mx-2' style={{ width: "45%" }} />
+            <hr className='mx-2' style={{ width: "45%" }} /> <span className='mt-1'>or</span> <hr className='mx-2' style={{ width: "45%" }} />
           </div>
           <div className='d-flex justify-content-center'>
             <button type="submit" className="bg-white w-100 text-black" style={{ border: "1px solid black" }}>
               Login with Google
-              <img className='mx-2' width="30" height="30" src="https://img.icons8.com/ios-filled/50/google-logo.png" alt="google-logo" />
+              <img className='mx-2' width="30" height="30" src={Google} alt="google-logo" />
             </button>
           </div>
-        </form >
-      </div >
-    </div >
+        </form>
+      </div>
+    </div>
   )
 }
