@@ -2,7 +2,7 @@
 
 ### Prerequisites
 
-* Node.js and npm (or yarn) installed on your system.
+* Node.js and npm installed on your system.
 
 see our [Code of Conduct](CODE-OF-CONDUCT.md) for more information on expected behavior within the project
 
@@ -13,12 +13,7 @@ see our [Code of Conduct](CODE-OF-CONDUCT.md) for more information on expected b
 git clone [https://github.com/abhinab-choudhury/iNoteBook.git]([https://github.com/abhinab-choudhury/iNoteBook.git)
 cd iNoteBook
 npm install
-```
-### Start:
-
-- Frontend
-```bash
-  npm run dev
+npm run dev
 ```
 
 source:
