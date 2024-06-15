@@ -16,7 +16,7 @@ export default function Index() {
             <Route path='*' element={<p>Path not resolved</p>} />
           </Route>
         </Routes>
-      </BrowserRouter >
+      </BrowserRouter>
     </div>
   )
 }
