@@ -24,7 +24,7 @@
 
 **Getting Started:**
 
-1. Visit our website: [**Webiste**] (https://inotebook-kappa-two.vercel.app/)
+1. Visit our website: [**Webiste**](https://inotebook-kappa-two.vercel.app/)
 2. Create a free account.
 3. Start exploring the intuitive interface and powerful features.
 
