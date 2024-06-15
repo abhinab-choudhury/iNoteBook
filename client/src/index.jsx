@@ -9,7 +9,7 @@ export default function Index() {
     <div>
       <BrowserRouter>
         <Routes>
-          <Route path='/iNoteBook' element={<Home />} >
+          <Route path='/' element={<Home />} >
             <Route index element={<Home />} />
             <Route Path='signin' element={<Signin />} />
             <Route path='login' element={<Login />} />
