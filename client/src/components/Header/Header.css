@@ -1,0 +1,18 @@
+.avatar {
+  left: 0;
+  width: 27px;
+  -webkit-clip-path: circle(50% at 50% 50%);
+  clip-path: circle(50% at 50% 50%);
+}
+.link:hover{
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.header-sigin {
+  font-size: "15px";
+  margin-top: "10px"; 
+}
+/* .home_body {
+  display: inline;
+} */

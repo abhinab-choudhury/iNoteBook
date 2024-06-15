@@ -1,0 +1,14 @@
+
+.input-form{
+  position: relative;
+  font-size: medium;
+  width: 75%;
+  height: 77vh;
+  border: 1.5px solid #d2cccc;
+  border-radius:5px;
+  box-shadow: 4px 4px 4px #d2cccc24;
+  resize: "none";
+  padding: 20px;
+  background: #c8c8c80f;
+}
+

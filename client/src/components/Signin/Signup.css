@@ -1,0 +1,21 @@
+.signin {
+  position: absolute;
+  top:50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+hr {
+  position: relative;
+}
+
+.signin-form{
+  width: 500px;
+  height: 100%;
+  font-size: medium;
+  border: 1.5px solid #d2cccc;
+  border-radius:5px;
+  resize: "none";
+  padding: 20px;
+  background: #c8c8c80f;
+}
+
