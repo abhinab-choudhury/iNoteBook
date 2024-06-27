@@ -5,6 +5,15 @@
 
 # iNoteBook: Your All-in-One Cloud-Based Note-Taking Solution
 
+# Improvements:
+- [ ] Adding AI-Assistent to the side of the Notes Taking Panel only for [PC-user]
+- [ ] Adding Cloud and Local Storage using [Firebase....]
+- [ ] Adding Google/github signin
+- [ ] Adding email, password login
+- [ ] Email, password, name, profil pic[raandomly Generate]
+- [ ] Profile Page whiich include various info about us
+- [ ] Implenting a Book Sections by which we can separate notes from different subject
+
 **iNoteBook** empowers you to capture, organize, and access your notes seamlessly, anytime, anywhere. This versatile and secure cloud-based web application simplifies note-taking for individuals and teams, fostering collaboration and keeping your ideas readily available.
 
 **Features:**
